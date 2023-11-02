@@ -7,9 +7,11 @@ margin-bottom: 20px;
 text-align: center;
 `
 export const StatisticsScore = styled.div`
+width: 210px;
 display: block;
 margin: 0 auto;
-text-align: center;
+text-align: start;
+line-height: 2;
 font-size: 20px;
 
 `

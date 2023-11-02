@@ -1,8 +1,8 @@
 import {Title,
         Button,
-        ButtonContainer} from './Feedback.style'
+        ButtonContainer} from './FeedbackOptions.style'
 
-export const Feedback = ()=>{
+export const FeedbackOptions = ()=>{
     return (
         <div>
             <Title>
