@@ -1,13 +1,9 @@
-import{StatisticsTitle,
-       StatisticsScore} from './Statistics.styled';
+import{StatisticsScore} from './Statistics.styled';
 
 export const Statistics = ({good, neutral, bad, countTotalFeedback, countPositiveFeedbackPercentage})=>{
       
 return(
     <div>
-        <StatisticsTitle>
-            Statistics
-        </StatisticsTitle>
         <StatisticsScore>
            <p>Good: {good}</p>
            <p>Neutral: {neutral}</p>

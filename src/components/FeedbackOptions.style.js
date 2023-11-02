@@ -1,18 +1,12 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
-display: block;
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 20px;
-text-align: center;
-`
 export const ButtonContainer = styled.div`
 width: 400px;
 display: flex;
 justify-content: center;
 margin: 0 auto;
 margin-bottom: 50px;
+margin-top: 20px;
 gap: 20px;
 `
 
