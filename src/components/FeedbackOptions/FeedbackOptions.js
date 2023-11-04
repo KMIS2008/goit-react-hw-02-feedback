@@ -1,6 +1,6 @@
 import {
         Button,
-        ButtonContainer} from './FeedbackOptions.style'
+        ButtonContainer} from './FeedbackOptions.style.js'
 
 export const FeedbackOptions = ({onLeaveFeedback, options})=>{
     return (
